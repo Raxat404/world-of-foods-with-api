@@ -1,0 +1,32 @@
+body {
+  background: url(../img/blur.jpg);
+  overflow-y: hidden;
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.item {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.category-class {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.heading {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#sidebar::-webkit-scrollbar {
+  width: 0px;
+}
+
+#main::-webkit-scrollbar {
+  width: 0px;
+}
+
+/*# sourceMappingURL=main.css.map */
